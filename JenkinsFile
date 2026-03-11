@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 
-                git branch: 'main', url: 'https://github.com/Epsilon0309/JenkinsWebAppPipeline.git'
+                git branch: 'main', url: 'https://github.com/Epsilon0309/Library_Management_System.git'
             }
         }
 
